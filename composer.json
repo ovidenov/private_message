@@ -1,0 +1,23 @@
+{
+  "name": "ovidenov/private_message",
+  "description": "K4P. A private message system for users to send messages to each other.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.0",
+    "drupal/message": "^1.0",
+    "drupal/message_notify": "^1.0",
+    "drupal/core": "^9.0 || ^10"
+  },
+  "suggest": {
+    "drush/drush": "^10 || ^11"
+  },
+  "extra": {
+    "drush": {
+      "services": {
+        "drush.services.yml": "^10 || ^11"
+      }
+    }
+  }
+}
